@@ -7,7 +7,195 @@
   --primary: #ff4fa3;
   --primary2:#ff7bc1;
 /* ===========================
-   AMARI CLÍNICA ESTÉTICA
+   AMARI CLÍNICA ESTÉTICA/*==========================
+ANIMACIONES
+==========================*/
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.servicio{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:1s;
+
+}
+
+.servicio.mostrar{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Línea elegante debajo del título */
+
+#servicios h3::after{
+
+    content:"";
+
+    display:block;
+
+    width:80px;
+
+    height:2px;
+
+    background:#B49374;
+
+    margin:20px auto 0;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:100px;
+
+    background:#EFE6DD;
+
+    padding:60px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:60px;
+
+    flex-wrap:wrap;
+
+}
+
+.red{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.red img{
+
+    width:22px;
+
+}
+
+.red span{
+
+    color:#4B3A2F;
+
+}
+
+.copyright{
+
+    width:100%;
+
+    text-align:center;
+
+    margin-top:30px;
+
+    color:#8A7666;
+
+    font-size:14px;
+
+}
+
+/* Celular */
+
+@media(max-width:768px){
+
+nav{
+
+padding:15px 25px;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+letter-spacing:5px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.logo{
+
+width:150px;
+
+height:150px;
+
+}
+
+#typing{
+
+font-size:18px;
+
+}
+
+.servicio img{
+
+height:260px;
+
+}
+
+#servicios h3{
+
+font-size:42px;
+
+}
+
+.texto h4{
+
+font-size:30px;
+
+}
+
+footer{
+
+flex-direction:column;
+
+gap:20px;
+
+align-items:center;
+
+}
+
+}
 =========================== */
 
 *{
