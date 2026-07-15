@@ -66,3 +66,15 @@ nav a:hover{
     margin:auto;
     color:#666;
     fo
+/* ===== ANIMACIONES ===== */
+
+.card{
+    opacity:0;
+    transform:translateY(60px);
+    transition:all .8s ease;
+}
+
+.card.mostrar{
+    opacity:1;
+    transform:translateY(0);
+}
