@@ -1030,3 +1030,172 @@ text-align:center;
     padding-bottom: 18px;
   }
 }
+/* ===========================
+PÁGINA MASAJES
+=========================== */
+
+.hero-servicio{
+
+padding-top:180px;
+
+padding-bottom:100px;
+
+text-align:center;
+
+background:#F8F5F1;
+
+}
+
+.hero-servicio h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:70px;
+
+letter-spacing:8px;
+
+color:#4B3A2F;
+
+margin-bottom:20px;
+
+}
+
+.hero-servicio p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:22px;
+
+line-height:1.8;
+
+color:#7A6555;
+
+}
+
+.tratamiento{
+
+max-width:1200px;
+
+margin:100px auto;
+
+background:white;
+
+border-radius:30px;
+
+overflow:hidden;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.imagen-servicio{
+
+width:100%;
+
+height:520px;
+
+object-fit:cover;
+
+transition:.6s;
+
+}
+
+.imagen-servicio:hover{
+
+transform:scale(1.03);
+
+}
+
+.contenido{
+
+padding:60px;
+
+}
+
+.contenido h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:46px;
+
+color:#4B3A2F;
+
+margin-bottom:15px;
+
+}
+
+.duracion{
+
+font-weight:600;
+
+margin-bottom:30px;
+
+color:#A07F63;
+
+}
+
+.contenido p{
+
+font-size:18px;
+
+line-height:1.9;
+
+margin-bottom:30px;
+
+}
+
+.contenido h3{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:32px;
+
+margin-bottom:20px;
+
+}
+
+.contenido ul{
+
+padding-left:25px;
+
+margin-bottom:35px;
+
+}
+
+.contenido li{
+
+margin-bottom:12px;
+
+line-height:1.7;
+
+}
+
+@media(max-width:768px){
+
+.imagen-servicio{
+
+height:260px;
+
+}
+
+.hero-servicio h1{
+
+font-size:46px;
+
+}
+
+.contenido{
+
+padding:35px 25px;
+
+}
+
+.contenido h2{
+
+font-size:34px;
+
+}
+
+}
